@@ -1,44 +1,26 @@
-import styled from "styled-components";
+import IRepo from "../../interface/IRepo";
+import { Box, LinkRepo, Nome, NomeCompleto, Options, RemoveButton } from "./styles";
 
-const Box = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  padding: 1.5rem;
-  border: .2rem solid var(--lighter);
-  border-radius: .5rem;
-`
+type ItemRepoProps = IRepo & {
+  handleRemoveRepo: (id: number) => void; // Defina o tipo correto para o id
+};
 
-const Nome = styled.h2`
-  font-size: 2.4rem;
-`
-
-const NomeCompleto = styled.h3`
-  font-size: 1.6rem;
-`
-
-const LinkRepo = styled.a`
-  font-size: 1.2rem;
-`
-
-const RemoveButton = styled.button`
-`
-
-const Options = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-`
-
-const ItemRepo = () => {
+const ItemRepo = ({ id, name, full_name, html_url, handleRemoveRepo }: ItemRepoProps) => {
 
   return (
     <Box>
-      <Nome>Olá</Nome>
-      <NomeCompleto>Olá Mundo</NomeCompleto>
+      <Nome>{name}</Nome>
+      <NomeCompleto>{full_name}</NomeCompleto>
       <Options>
-        <LinkRepo>Ver Repositório</LinkRepo>
-        <RemoveButton>Remover</RemoveButton>
+        <LinkRepo
+          href={html_url}
+          target="_blank">
+          Ver Repositório
+        </LinkRepo>
+        <RemoveButton
+          text="Remover"
+          onClick={() => handleRemoveRepo(id)}
+        />
       </Options>
     </Box>
   )

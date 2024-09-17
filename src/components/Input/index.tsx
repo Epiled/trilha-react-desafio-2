@@ -1,20 +1,14 @@
-import styled from "styled-components";
+import IInput from "../../interface/IInput";
+import { InputStyled } from "./styles";
 
-const InputStyled = styled.input`
-  border-radius: .5rem;
-  border: .2rem solid var(--lighter);
-  background: transparent;
-  padding: 1rem;
-  font-size: 2rem;
-  color: var(--lighter);
-`
-
-const Input = ({placeholder}: {placeholder: string}) => {
+const Input = ({ placeholder, value, onChange }: IInput) => {
 
   return (
-    <>
-      <InputStyled placeholder={placeholder} type="text" />
-    </>
+    <InputStyled
+      placeholder={placeholder} type="text"
+      value={value}
+      onChange={onChange}
+    />
   )
 }
 

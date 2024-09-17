@@ -1,4 +1,4 @@
-import Home from "./page/Home";
+import Home from "./page/Home/Home";
 import EstilosGlobais from "./styles/EstilosGlobais";
 
 const App = () => {

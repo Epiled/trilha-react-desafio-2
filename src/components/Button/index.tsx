@@ -1,18 +1,13 @@
-import styled from "styled-components";
+import IButton from "../../interface/IButton";
+import { ButtonStyled } from "./styles";
 
-const ButtonStyled = styled.button`
-  background: var(--lighter);
-  border-radius: .5rem;
-  border: 0;
-  font-weight: 600;
-  padding: 1.5rem 5rem;
-  text-transform: uppercase;
-`
-
-const Button = ({text}: {text: string}) => {
+const Button = ({ text, className, onClick }: IButton) => {
 
   return (
-    <ButtonStyled>
+    <ButtonStyled
+      className={className}
+      onClick={onClick}
+    >
       {text}
     </ButtonStyled>
   )
