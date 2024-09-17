@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Button from "../Button"
 
-export const Box = styled.div`
+export const Box = styled.li`
   display: flex;
   flex-direction: column;
   gap: .5rem;
@@ -21,6 +21,7 @@ export const Nome = styled.h2`
   font-size: 2.4rem;
   color: var(--color-yellow);
   background: -webkit-linear-gradient(180deg, var(--color-yellow-3), var(--color-yellow-2));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `

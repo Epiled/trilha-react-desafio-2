@@ -21,7 +21,7 @@ export const Image = styled.img`
   margin: 0 auto;
 `
 
-export const ContainerInter = styled.div`
+export const ContainerInter = styled.header`
   display: flex;
   flex-direction: column;
   gap: 3rem;
