@@ -9,7 +9,7 @@ Segundo desafio de Front-End do Bootcamp XP Inc. - Full Stack Developer na plata
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-![banner](https://github.com/user-attachments/assets/9569fe1b-f8ea-454f-a929-888fe6b59103#vitrinedev)
+![banner](https://github.com/user-attachments/assets/dd5cdf56-298d-413f-b1c6-3b4434f76fec#vitrinedev)
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/3b6a9a4d-fce6-49a2-a0a0-0674d57a11eb
 
 ```
 1. git clone https://github.com/Epiled/trilha-react-desafio-2.git
-2. cd trilha-react-desafio01-calculadora
+2. cd trilha-react-desafio-2
 3. npm install
 ```
 
