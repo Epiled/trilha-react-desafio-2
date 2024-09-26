@@ -1,7 +1,12 @@
 import styled from "styled-components"
+import bgImage from "../../assets/img/bg.jpg";
 
 export const BackgroundStyled = styled.div`
-  background: var(--bg);
+  background-image: 
+  linear-gradient(190deg, var(--bg-a), var(--bg2-a)),
+  url("${bgImage}"),
+  linear-gradient(var(--bg), var(--bg));
+
   border: 0;
   display: flex;
   flex-direction: column;
@@ -25,6 +30,12 @@ export const ContainerInter = styled.header`
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  width: 100%;
+  max-width: 40rem;
+`
+
+export const ContainerInput = styled.div`
+  position: relative;
 `
 
 export const ListRepo = styled.ul`

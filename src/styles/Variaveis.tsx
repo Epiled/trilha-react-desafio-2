@@ -14,12 +14,14 @@ const Variaveis = createGlobalStyle`
     --color-yellow-2: #b59c10;
     --color-yellow-3: #a88102;
 
-
-    
     --lighter: #ffffff;
     --darker: #000000;
     --bg: #303030;
+    --bg-a: #303030cf;
+    --bg2-a: #000000f0;
     --bg-light: #bdbdbd;
+
+    --error: #ff2525;
   }
 `
 

@@ -5,7 +5,7 @@ const EstilosGlobais = () => {
   return <>
     <ResetCSS />
     <Variaveis />
-  </>;
+  </>
 }
 
 export default EstilosGlobais;

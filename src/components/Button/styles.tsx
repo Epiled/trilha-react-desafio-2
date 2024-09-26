@@ -8,10 +8,14 @@ export const ButtonStyled = styled.button`
   padding: 1.5rem 5rem;
   text-transform: uppercase;
   transition: all .2s;
-
+  
   &:hover {
     background: var(--color-yellow);
     transform: scale(1.1) rotate(2deg);
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 370px) {
+    margin-top: 1rem;
   }
 `
