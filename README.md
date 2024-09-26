@@ -5,7 +5,7 @@ Segundo desafio de Front-End do Bootcamp XP Inc. - Full Stack Developer na plata
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Trilha React Desafio 02 - Consumo de API GitHub**
-| :label: Tecnologias | react, sass, styled components, html, css, js, node, typescript, vite, eslint
+| :label: Tecnologias | react, sass, styled components, axios, html, css, js, node, typescript, vite, eslint
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
@@ -13,7 +13,11 @@ Segundo desafio de Front-End do Bootcamp XP Inc. - Full Stack Developer na plata
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
-O desafio foi criar uma calculadora utilizando do React.
+Este projeto é o segundo desafio da trilha de React do bootcamp da DIO, em parceria com a XP Inc. O objetivo principal deste desafio foi desenvolver uma aplicação que consome a API do GitHub para pesquisar repositórios.
+
+<h3 id="funcionalidades"> Funcionalidades </h3>
+
+A aplicação permite que os usuários busquem repositórios do GitHub inserindo o nome do repositório desejado. Ao clicar no botão de busca, a aplicação faz uma requisição para a API do GitHub e, caso o repositório exista, ele é adicionado a uma lista. O usuário pode visualizar todos os repositórios pesquisados e também removê-los da lista, se desejado.
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/trilha-react-desafio-2?style=for-the-badge)
 ![Badge](https://img.shields.io/github/languages/code-size/Epiled/trilha-react-desafio-2?style=for-the-badge)
@@ -25,6 +29,7 @@ O desafio foi criar uma calculadora utilizando do React.
 ![Badge](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Badge](https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Badge](https://img.shields.io/badge/-Styled%20Components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white)
+![Badge](https://img.shields.io/badge/-Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -37,6 +42,7 @@ O desafio foi criar uma calculadora utilizando do React.
 
 <!--ts-->
    * [Detalhes do projeto](#detalhes-do-projeto)
+     - [Funcionalidades](#funcionalidades)
    * [Demonstração](#demonstracao)
      - [Consumo da API](#consumoDaAPI)
    * [Pré-Requisito](#pre-requisito)
@@ -83,6 +89,7 @@ As seguintes tecnologias foram usadas na construção deste projeto:
   <li><a href="https://react.dev/" target="_blank">React</a></li>
   <li><a href="https://sass-lang.com/" target="_blank">Sass</a></li>
   <li><a href="https://styled-components.com/" target="_blank">Styled Components</a></li>
+  <li><a href="https://axios-http.com/ptbr/docs/intro" target="_blank">Axios</a></li>
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
   <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
