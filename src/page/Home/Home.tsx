@@ -11,7 +11,7 @@ import { AxiosError } from "axios";
 
 import { fetchRepo } from "../../services/api";
 
-import ImageGitHub from "../../assets/img/github.png";
+import ImageGitHub from "../../assets/img/github.webp";
 
 const Home = () => {
 
